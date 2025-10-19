@@ -12,11 +12,12 @@ def dividir(a, b):
         return None
 
 if __name__ == "__main__":
-    nombre = "Carla"
+    nombre = "Roberto"
     saludar(nombre)
     try:
         resultado = dividir(10, 5)
         if resultado is not None:
             print("Resultado:", resultado)
     except Exception as e:
-        print(f"Ocurrió un error inesperado: {str(e)}")
+        print(f"Ocurrió un error inesperado, revisar: {str(e)}")
+        
