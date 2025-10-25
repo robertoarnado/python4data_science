@@ -1,0 +1,47 @@
+---
+title: "Modulo 2: Sets en Python"
+author: "Roberto Arnado"
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=2.54cm
+      - bottom=2.54cm
+      - left=2.54cm
+      - right=2.54cm
+    fontfamily: times
+    fontsize: 12pt
+    linestretch: 2
+    toc: true
+    number-sections: true
+    colorlinks: true
+execute:
+  echo: true
+  warning: false
+---
+
+## Markdown
+
+Markdown is an easy to read and write text format:
+
+- It's _plain text_ so works well with version control
+- It can be **rendered** into HTML, PDF, and more
+- Learn more at: <https://quarto.org/docs/authoring/>
+
+## Code Cell
+
+Here is a Python code cell:
+
+```{python}
+import os
+os.cpu_count()
+```
+
+## Equation
+
+Use LaTeX to write equations:
+
+$$
+\chi' = \sum_{i=1}^n k_i s_i^2
+$$
